@@ -16,6 +16,7 @@ in stdenv.mkDerivation rec {
   '';
 
   installPhase = ''
+    mkdir -p $out/share/java
     install -Dm644 target/${pname}-${version}.jar $out/share/java
   '';
 }

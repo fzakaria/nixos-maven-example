@@ -18,6 +18,8 @@ in stdenv.mkDerivation rec {
 
   installPhase = ''
     mkdir -p $out/bin
+    mkdir -p $out/share/java
+
     # create a symbolic link for the repository directory
     ln -s ${repository} $out/repository
 
