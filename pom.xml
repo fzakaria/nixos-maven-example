@@ -17,23 +17,23 @@
   </dependencies>
 
   <build>
-  <plugins>
-    <plugin>
-        <artifactId>maven-jar-plugin</artifactId>
-        <configuration>
-            <archive>
-                <manifest>
-                    <addClasspath>true</addClasspath>
-                    <classpathPrefix>../../repository/</classpathPrefix>
-                    <classpathLayoutType>repository</classpathLayoutType>
-                    <mainClass>Main</mainClass>
-                </manifest>
-                <manifestEntries>
-		                <Class-Path>.</Class-Path>
-                </manifestEntries>
-            </archive>
-        </configuration>
-    </plugin>
-  </plugins>
-</build>
+    <plugins>
+      <plugin>
+          <artifactId>maven-jar-plugin</artifactId>
+          <configuration>
+              <archive>
+                  <manifest>
+                      <addClasspath>true</addClasspath>
+                      <classpathPrefix>../../repository/</classpathPrefix>
+                      <classpathLayoutType>repository</classpathLayoutType>
+                      <mainClass>Main</mainClass>
+                  </manifest>
+                  <manifestEntries>
+  		                <Class-Path>.</Class-Path>
+                  </manifestEntries>
+              </archive>
+          </configuration>
+      </plugin>
+    </plugins>
+  </build>
 </project>
