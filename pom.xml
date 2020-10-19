@@ -29,7 +29,7 @@
                     <mainClass>Main</mainClass>
                 </manifest>
                 <manifestEntries>
-		    <Class-Path>share/java/</Class-Path>
+		                <Class-Path>.</Class-Path>
                 </manifestEntries>
             </archive>
         </configuration>
