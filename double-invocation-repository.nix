@@ -1,6 +1,5 @@
 { pkgs ? import <nixpkgs> { }, stdenv ? pkgs.stdenv, maven ? pkgs.maven }:
-with stdenv;
-mkDerivation {
+stdenv.mkDerivation {
   name = "maven-repository";
   buildInputs = [ maven ];
   src = ./.; # or fetchFromGitHub, cleanSourceWith, etc
