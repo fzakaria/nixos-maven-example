@@ -24,7 +24,7 @@
             <archive>
                 <manifest>
                     <addClasspath>true</addClasspath>
-                    <classpathPrefix>repository/</classpathPrefix>
+                    <classpathPrefix>../../repository/</classpathPrefix>
                     <classpathLayoutType>repository</classpathLayoutType>
                     <mainClass>Main</mainClass>
                 </manifest>
